@@ -1,0 +1,49 @@
+.jewelry {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+}
+
+.bij {
+  width: 64px;
+  height: 64px;
+  border: 1px solid transparent;
+  filter: grayscale(100%);
+  background-repeat: no-repeat;
+}
+.bij:hover {
+  border: 1px solid rgba(75, 71, 255, 0.45);
+}
+.neck {
+  background-image: url("https://lostarkcodex.com/icons/acc_209.webp");
+}
+
+.earrings1 {
+  background-image: url("https://lostarkcodex.com/icons/acc_109.webp");
+}
+.earrings2 {
+  background-image: url("https://lostarkcodex.com/icons/acc_109.webp");
+}
+.ring1 {
+  background-image: url("https://lostarkcodex.com/icons/acc_19.webp");
+}
+.ring2 {
+  background-image: url("https://lostarkcodex.com/icons/acc_19.webp");
+}
+.fetr {
+  background-image: url("https://lostarkcodex.com/icons/ability_21.webp");
+  width: 64px;
+  height: 64px;
+  border: 1px solid transparent;
+  filter: grayscale(100%);
+  background-repeat: no-repeat;
+}
+
+.fetr:hover {
+  border: 1px solid rgba(75, 71, 255, 0.45);
+}
+.checked {
+  border: 1px solid #4b47ff;
+  filter: none;
+}
